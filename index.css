@@ -1,0 +1,163 @@
+
+      p {
+        color: slategray;
+      }
+
+      .liz {
+        color: orange;
+        font-size: 5rem;
+      }
+      .maker {
+        color: purple;
+        font-size: 2.5rem;
+      }
+      #den {
+        color: brown;
+        border: 2px dashed green;
+      }
+      #text {
+        color: aquamarine;
+        border: 2px dashed blue;
+      }
+      /* img{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-image: fill;
+        /* border: 0.5rem dashed red; */
+        /* border-radius: 10%;
+                                                                                                                                                                                       */ */
+
+
+
+        /* .box{
+          width: 200px;
+          height: 200px;
+          border: 2px solid red;
+          
+        } */
+              
+              
+              
+
+      /* img:hover{
+        transform: scale(1.2);
+      } */
+      
+      /* .test{
+        border: 1rem solid slateblue;
+        border-collapse: collapse;
+        padding: 1.5rem;
+                  text-align: left;
+      } */
+     table,th,td{
+      border: 0.5rem solid slategrey;
+      border-collapse: collapse;
+      padding: 2rem;
+      
+
+  }
+ 
+      /* mobile view */
+      @media(min-width:280px){
+    body{
+        background-color: saddlebrown;
+        /* add an image and make it fixed as user scrolls */
+        background-image: url("./download.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        /* display: inline; */
+    }
+    p{
+    margin: 0.5rem 10%;
+    color: black;
+    font-size: 3rem;
+    font-family: monospace;
+}
+    h1{
+      text-align: center; 
+    font-size: 2rem;
+     /* text-shadow: 1rem 1rem 0.5rem red; */
+     
+}
+.box{
+  margin-left:580px;
+  width: 450px;
+  height: 350px;
+  background-image:url('./istockphoto-1346124946-170667a.webp'),url('./istockphoto-1372002650-612x612.webp'),url('./istockphoto-1461077577-612x612.jpg') ;
+ background-position: top left, bottom right, top right;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  
+  
+  
+}
+/* .box img{
+  position: absolute;
+ 
+   width:200px;
+  height: 150px;
+}
+.image1{
+top: 20px;
+left: 500px;
+}
+.image2{
+bottom: 40px;
+right: 40px;
+}
+.image3{
+  top: 200px;
+  right: 50px;
+} */
+
+nav{
+  background-color: blue;
+  padding: 20px;
+  position: sticky;
+  top: 0%;
+  bottom: 0%;
+  
+}
+.lists{
+  list-style-type: none;
+  display: flex;
+}
+a{
+  margin-left: 40px;
+  text-decoration: none;
+   color: antiquewhite; 
+  padding: 40px 45px;
+}
+a:hover{
+  color:red;
+}
+    }
+    /* tablet view */
+      @media(min-width:700px){
+    body{
+        background-color: purple;
+    }
+    p{
+        margin: 0.5rem 10%;
+        color: wheat;
+        font-size: 2rem;
+    }
+    h1{
+    font-size: 4rem;
+    }
+    }
+    /* desktop view */
+      @media(min-width:1000px){
+    body{
+        background-color: aqua;
+    }
+    p{
+        margin: 0.5rem 10%;
+        color: green;
+        font-size: 1.5rem;
+    }
+    h1{
+    font-size: 6rem;
+}
+    }
